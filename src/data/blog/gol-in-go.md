@@ -1,8 +1,8 @@
 ---
 author: Sudha Parimala
-pubDatetime: 2025-06-16T19:02:00Z
+pubDatetime: 2025-06-16T17:00:00Z
 title: Trying out Go by writing a program for Game of Life
-slug: game-of-life-go
+slug: gol-in-go
 featured: true
 draft: false
 tags:
