@@ -3,10 +3,11 @@ layout: ../layouts/AboutLayout.astro
 title: "Resume"
 ---
 
-# Sudha Parimal
-**Email**: sudharg247 [at] gmail [dot] com  / sudha [at] tensors [dot] ink
-**Mobile**: On Request
-**Location**: The Hague, Netherlands  (Valid work authorisation)
+# Sudha Parimala
+
+**Email**: sudharg247 [at] gmail [dot] com  / sudha [at] tensors [dot] ink \\
+**Mobile**: On Request \\
+**Location**: The Hague, Netherlands  (Valid work authorisation) \\
 
 ---
 
