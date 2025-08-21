@@ -3,19 +3,20 @@ layout: ../layouts/AboutLayout.astro
 title: "Resume"
 ---
 
-# Sudha Parimala  
-**Email**: sudharg247 [at] gmail [dot] com  
-**Mobile**: On Request  
-**Location**: Den Haag, Netherlands  
+# Sudha Parimal
+**Email**: sudharg247 [at] gmail [dot] com  / sudha [at] tensors [dot] ink
+**Mobile**: On Request
+**Location**: The Hague, Netherlands  (Valid work authorisation)
 
 ---
 
-## Education  
+## Programming Skills
 
-**SSN College of Engineering, Anna University**  
-*Bachelor of Engineering in Computer Science & Engineering*  
-*Chennai, India*  
-*2015 - 2019*  
+- **Programming Languages**: Python, C/C++, JavaScript, Java, OCaml, Scala, SQL
+- **Backend Technologies**: Spring Boot, Django, Flask, Node.js
+- **Databases & Storage**: PostgreSQL, MySQL
+- **Systems & Tools**: Linux, Shell Scripting, Unix Tools
+- **Core Concepts**: Multi-threading, Parallel Programming, Observability, Build Systems
 
 ---
 
@@ -61,6 +62,15 @@ title: "Resume"
 *Jun 2017 - Jul 2017*  
 
 - **Automated Testing**: Developed a test suite from scratch for flagship project BI Hub, integrating various BI solutions offered by the product.  
+
+---
+
+## Education  
+
+**SSN College of Engineering, Anna University**  
+*Bachelor of Engineering in Computer Science & Engineering*  
+*Chennai, India*  
+*2015 - 2019*  
 
 ---
 
@@ -112,10 +122,3 @@ title: "Resume"
 - **Programs and Proofs**: Spring 2020; CS6225, IIT Madras; Grade: 9/10.  
 - **Summer School**: Summer 2018; Principles of Programming Languages by ACM India  
 - **Introduction to Modern Application Development**: Summer 2018; Full stack development course with Node.js  
-
----
-
-## Programming Skills  
-
-- **Languages**: Python, C, C++, OCaml, Haskell, JavaScript, Clojure, Java, SQL, Scala  
-- **Technologies**: Spring Boot, Node.js, Angular, Linux, Shell Scripting & Unix tools, Django, Flask, PostgreSQL  
