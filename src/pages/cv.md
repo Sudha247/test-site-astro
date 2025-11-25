@@ -5,19 +5,19 @@ title: "Resume"
 
 # Sudha Parimala
 
-**Email**: sudharg247 [at] gmail [dot] com  / sudha [at] tensors [dot] ink \\
-**Mobile**: On Request \\
-**Location**: The Hague, Netherlands  (Valid work authorisation) \\
+**Email:** sudharg247 [at] gmail [dot] com / sudha [at] tensors [dot] ink  
+**Mobile:** On Request  
+**Location:** The Hague, Netherlands (Valid work authorisation)
 
 ---
 
 ## Programming Skills
 
 - **Programming Languages**: Python, C/C++, JavaScript, Java, OCaml, Scala, SQL
-- **Backend Technologies**: Spring Boot, Django, Flask, Node.js
+- **Backend Technologies**: Spring Boot, Django, Flask, FastAPI, Node.js
 - **Databases & Storage**: PostgreSQL, MySQL
-- **Systems & Tools**: Linux, Shell Scripting, Unix Tools
-- **Core Concepts**: Multi-threading, Parallel Programming, Observability, Build Systems
+- **Systems & DevOps**: Linux, Shell Scripting, Unix Tools, Docker, GitHub Actions
+- **Core Concepts**: Multi-threading, Concurrent Programming, Performance Analysis, Observability, Build Systems, Technical writing
 
 ---
 
