@@ -1,6 +1,6 @@
 ---
 author: Sudha Parimala
-pubDatetime: 2025-11-23T20:25:00Z
+pubDatetime: 2025-11-23T14:25:00Z
 title: Porting an OxCaml project to Dune Package Management
 slug: oxcaml-dune-pkg
 featured: true
