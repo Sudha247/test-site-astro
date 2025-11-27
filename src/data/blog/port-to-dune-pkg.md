@@ -72,7 +72,11 @@ failure when building the `ocamlbuild` package.
 
 
 ```
-Unexpected file kind "S_DIR"
+File "dune.lock/ocamlbuild.pkg", line 23, characters 7-74:
+23 |   (url https://github.com/ocaml/ocamlbuild/archive/refs/tags/0.15.0.tar.gz)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: Error trying to read targets after a rule was run:
+- checksum/sha512=c8311a9a78491bf759eb27153d6ba4692d27cd935759a145f96a8ba8f3c2e97cef54e7d654ed1c2c07c74f60482a4fef5224e26d0f04450e69cdcb9418c762d3/dir/examples/07-dependent-projects/libdemo: Unexpected file kind "S_DIR" (directory)
 ```
 
 Looking at the error message, one thing was clear to me: it was not picking up
@@ -90,7 +94,11 @@ set. We could go ahead and install them and build the project. Then came the nex
 roadblock: we had a build failure in one of the dependencies.
 
 ```
-Unexpected file kind "S_DIR"
+File "dune.lock/odoc-parser.pkg", line 15, characters 3-82:
+15 |    git+https://github.com/oxcaml/odoc.git#97e1daecb432d33a7137d525f7a554f203073a95)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: Error trying to read targets after a rule was run:
+- url/ebca61d809da743073794a02009c3602/dir/test/generators/html/fonts: Unexpected file kind "S_DIR" (directory)
 ```
 
 Okay, we already know this failure! This shows there are symlinks in
