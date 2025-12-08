@@ -127,7 +127,7 @@ tools. For this, we need to specify constraints for the developer tools in
 
 ```dune
 (lock_dir
- (path "dev-tools.locks/ocaml-lsp-server")
+ (path "_build/.dev-tools.locks/ocamlformat")
  (pins ocamlbuild odoc-parser)
  (constraints
    (ocaml-lsp-server (= 1.19.0+ox))
@@ -148,7 +148,8 @@ With this introduced, one also needs to add a path entry to the main
 And that gets the dev tools to build and work! Full changes can be found here:
 https://github.com/Sudha247/tutorial-icfp25/pull/1/files. While all of this is
 true at the time of writing this post, it might have changed if you're reading
-it in the future.
+it in the future. I've used the latest [Dune
+nightly](https://nightly.dune.build/) build for all these experiments.
 
 Working through these issues gave me a much clearer sense of how OxCaml and Dune
 Package Management fit together in practice. The process surfaced unexpected
