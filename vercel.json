@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/dm-dictionary/:path*",
+        "destination": "https://dist-static-ten.vercel.app/:path*"
+      }
+    ]
+  }
