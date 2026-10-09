@@ -3,6 +3,12 @@ layout: ../layouts/AboutLayout.astro
 title: "Talks"
 ---
 
+* **Program Co-chair, OCaml Workshop 2026**  
+OCaml Workshop (at ICFP), Paris, France; August 2026
+
+* **Multicore Safety in OCaml** (with Carine Morel)  
+BobKonf 2026, Berlin, Germany; March 2026
+
 * **Multicore OCaml: An Overview**  
 MirageOS Retreat, Marrakesh; May 2025  
 [slides]()
